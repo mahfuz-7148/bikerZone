@@ -22,7 +22,7 @@
 </head>
 <body>
     <main class="max-w-screen-xl mx-auto">
-            <nav>
+            <nav class="mb-12">
                 <div class="navbar bg-base-100">
                     <div class="navbar-start">
                       <div class="dropdown">
@@ -66,7 +66,7 @@
             </nav>
 
             <header>
-                <div class="carousel w-full bg-bgbanner max-h-[550px]">
+                <div class="carousel w-full bg-bgbanner max-h-[550px] rounded-xl">
                     <div id="slide1" class="carousel-item relative w-full">
                         <div class="p-24 flex justify-between w-full">
                             <div>
@@ -146,6 +146,66 @@
                     
                 </div>
             </header>
+
+            <section class="mt-24 mb-24">
+                <div class="text-center">
+                    <h1 class="text-5xl font-bold mb-2">Featured Bikes In This Year</h1>
+                    <small class="text-[#E76F51] font-bold">Best bike collection</small>
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-32 mt-14 mx-10">
+                        <img src="images/others/feature-bike.png" alt="">
+                        <img src="images/others/feature-bike.png" alt="">
+                        <img src="images/others/feature-bike.png" alt="">
+                    </div>
+                </div>
+            </section>   
+
+            <section class="mt-24 mb-24">
+              <h1 class="text-5xl font-bold mb-10 text-center">Latest News</h1>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+                    <div class="card bg-base-100 w-96 shadow-xl">
+                        <figure>
+                          <img
+                            src="images/others/latest1.png"
+                            alt="Shoes" />
+                        </figure>
+                        <div class="card-body space-y-3">
+                          <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                          <div class="card-actions justify-start">
+                            <button class="btn bg-bgnavbtn text-xl px-5 text-white">Read More</button>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card bg-base-100 w-96 shadow-xl">
+                        <figure>
+                          <img
+                            src="images/others/latest1.png"
+                            alt="Shoes" />
+                        </figure>
+                        <div class="card-body space-y-3">
+                          <h2 class="card-title">Motorcycles & Scooters</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                          <div class="card-actions justify-start">
+                            <button class="btn bg-white text-xl px-5 text-[#E76F51] border-[#E76F51]">Read More</button>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card bg-base-100 w-96 shadow-xl">
+                        <figure>
+                          <img
+                            src="images/others/latest1.png"
+                            alt="Shoes" />
+                        </figure>
+                        <div class="card-body space-y-3">
+                          <h2 class="card-title">2021 Honda CBR500R</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                          <div class="card-actions justify-start">
+                            <button class="btn bg-white text-xl px-5 text-[#E76F51] border-[#E76F51]">Read More</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </section>
     </main>
 </body>
 </html>
